@@ -1,6 +1,6 @@
 .content {
     margin: auto;
-    max-width: 1000px;
+    max-width: 980px;
 }
 
 h1 {
@@ -13,13 +13,19 @@ h2 {
 }
 
 body {
-    background-color: pink;
     text-align: center;
     font-family: Helvetica;
 }
 
 img {
     float: left;
+}
+
+.image-with-text > p {
+    font-style: italic;
+    text-decoration: underline;
+    display: block;
+    margin: 0 auto;
 }
 
 li {
@@ -39,14 +45,12 @@ hr {
 .projectlist > h2 {
     font-size: 30px;
     font-weight: bold;
-    text-decoration: underline;
     background-color: yellow;
 }
 
 .description > p {
     padding-left: 10px;
-    color: purple;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .footer {
