@@ -7,6 +7,7 @@ h1 {
     font-size: 44px;
     background-color: #a09e9e81;
     text-decoration: underline;
+    border-radius: 4px;
 }
 
 h2 {
@@ -17,11 +18,13 @@ body {
     color: #232121;
     text-align: center;
     font-family: Helvetica;
-    background-color: #D0CDCD;
+    background-color: #d0cdcdb2;
 }
 
-img {
+.image-with-text > img {
     float: left;
+    border: 5px solid white;
+    margin: 8px 4px;
 }
 
 .image-with-text > p {
@@ -49,13 +52,13 @@ hr {
 .description {
     display: flex;
     flex-wrap: nowrap;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
 }
 
 .projectlist > h2 {
     font-size: 30px;
     font-weight: bold;
+    border-radius: 4px;
     background-color: #a09e9e81;
 }
 
@@ -67,5 +70,10 @@ hr {
 .footer {
     width: 50%;
     position: absolute;
-    bottom: 20px;
+    bottom: 14px;
+}
+
+.github > img {
+    width: 24px;
+    height: 24px;
 }
