@@ -1,0 +1,55 @@
+.content {
+    margin: auto;
+    max-width: 1000px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    background-color: red;
+}
+
+body {
+    background-color: pink;
+    text-align: center;
+}
+
+img {
+    float: left;
+}
+
+li {
+    list-style: none;
+}
+
+.description {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 18px;
+}
+
+hr {
+    margin: 10px;
+}
+
+.projectlist > h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: yellow;
+}
+
+.description > p {
+    padding-left: 10px;
+    color: purple;
+    font-size: 22px;
+}
+
+.footer {
+    width: 50%;
+    position: absolute;
+    bottom: 20px;
+}
