@@ -1,20 +1,23 @@
 .content {
     margin: auto;
-    max-width: 980px;
+    max-width: 960px;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 44px;
+    background-color: #a09e9e81;
+    text-decoration: underline;
 }
 
 h2 {
-    font-size: 30px;
-    background-color: red;
+    font-size: 24px;
 }
 
 body {
+    color: #232121;
     text-align: center;
     font-family: Helvetica;
+    background-color: #D0CDCD;
 }
 
 img {
@@ -24,28 +27,36 @@ img {
 .image-with-text > p {
     font-style: italic;
     text-decoration: underline;
+    color: #494747;
     display: block;
     margin: 0 auto;
+}
+
+.header > p {
+    font-style: italic;
+    font-size: 20px;
 }
 
 li {
     list-style: none;
 }
 
+hr {
+    border: 1px solid #232121;
+    border-radius: 5px;
+}
+
 .description {
     display: flex;
     flex-wrap: nowrap;
-    padding-top: 18px;
-}
-
-hr {
-    margin: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .projectlist > h2 {
     font-size: 30px;
     font-weight: bold;
-    background-color: yellow;
+    background-color: #a09e9e81;
 }
 
 .description > p {
