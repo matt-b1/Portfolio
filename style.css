@@ -75,9 +75,20 @@ footer {
     width: 50%;
     position: absolute;
     bottom: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.github {
+    margin-right: 50px;
 }
 
 .github img {
+    width: 24px;
+    height: 24px;
+}
+
+.linkedin img {
     width: 24px;
     height: 24px;
 }
