@@ -35,7 +35,7 @@ body {
     margin: 0 auto;
 }
 
-.header > p {
+header > p {
     font-style: italic;
     font-size: 20px;
 }
@@ -67,7 +67,7 @@ hr {
     font-size: 18px;
 }
 
-.footer {
+footer {
     width: 50%;
     position: absolute;
     bottom: 14px;
