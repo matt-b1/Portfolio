@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Oleo+Script+Swash+Caps&display=swap');
 
+
+
+html, body {
+    height: 100%;
+}
+
+
 .content {
-    margin: auto;
-    margin-left: 30px;
-    width: 50%;
+    width: 75%;
+    margin-left: 40px;
 }
 
 h1 {
@@ -19,11 +25,15 @@ h2 {
     font-size: 24px;
 }
 
+h3 {
+    font-size: larger;
+}
+
 body {
     color: #232121;
     text-align: center;
     font-family: Helvetica;
-    background-color: #d0cdcdb2;
+    background-color: #e2dfdfde;
     display: flex;
 }
 
@@ -45,6 +55,7 @@ body {
     border: 1px solid #4947473f;
     margin: 35px 20px 0 30px;
     width: 180px;
+    height: 60%;
     background-color: #d0cdcdb2;
 }
 
@@ -107,7 +118,6 @@ hr {
     text-align: start;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
 }
 
 .projectlist li{
@@ -121,8 +131,8 @@ hr {
 
 footer {  
     position: absolute;
-    bottom: 14px;
-    width: 50%;
+    bottom: 0px;
+    width: 75%;
     display: flex;
     justify-content: center;
 }
@@ -137,6 +147,6 @@ footer {
 }
 
 .linkedin img {
-    width: 24px;
+    width: 30px;
     height: 24px;
 }
