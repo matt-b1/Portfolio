@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Oleo+Script+Swash+Caps&display=swap');
 
 .content {
     margin: auto;
     margin-left: 30px;
-    max-width: 960px;
+    width: 50%;
 }
 
 h1 {
@@ -34,21 +34,49 @@ body {
 }
 
 .image-with-text span {
-    font-style: italic;
     text-decoration: underline;
+    font-family: 'Oleo Script Swash Caps', cursive;
     color: #494747;
     display: block;
     margin: 0 auto;
 }
 
 .sidenav {
-    margin: 50px 50px;
-    width: 150px;
-    display: flex;
+    border: 1px solid #4947473f;
+    margin: 35px 20px 0 30px;
+    width: 180px;
+    background-color: #d0cdcdb2;
+}
+
+.sidenav button {
+    border: none;
+    background-color: #494747;
+    color: white;
+    width: 90%;
+    height: 60px;
+}
+
+.sidenav button:hover {
+    background-color: #4947477a;
+}
+
+.sidenav ul{
+    width: 100%;
+    padding: 0;
 }
 
 .sidenav li{
     list-style: none;
+}
+
+.sidenav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.sidenav .below {
+    border-top: 1px solid #d0cdcdb2;
 }
 
 header p {
@@ -91,10 +119,10 @@ hr {
     font-size: 18px;
 }
 
-footer {
-    width: 50%;
+footer {  
     position: absolute;
     bottom: 14px;
+    width: 50%;
     display: flex;
     justify-content: center;
 }
