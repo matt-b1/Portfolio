@@ -1,18 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Oleo+Script+Swash+Caps&display=swap');
 
-html {
-    display: table;
-    margin: auto;
-}
 
-html, body {
-    height: 100%;
+.wrapper {
+    display: flex;
+    align-items: stretch;
 }
-
 
 .content {
-    width: 75%;
+    width: 80%;
+    margin-top: 20px;
     margin-left: 40px;
 }
 
@@ -54,48 +51,52 @@ body {
     margin: 0 auto;
 }
 
-.sidenav {
-    border: 1px solid #4947473f;
-    margin: 35px 20px 0 30px;
-    width: 180px;
-    height: 60%;
-    background-color: #d0cdcdb2;
+#sidebar {
+    background-color: rgb(53, 53, 53);
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
 }
 
-.sidenav button {
-    border: none;
-    background-color: #494747;
+.sidebar-header {
+    background-color: rgb(45, 45, 45) ;
     color: white;
-    width: 90%;
-    height: 60px;
+    font-size: 34px;
+    padding: 20px;
 }
 
-.sidenav button:hover {
-    background-color: #4947477a;
+.sidebar-header h3 {
+    font-weight: 500;
 }
 
-.sidenav ul{
-    width: 100%;
-    padding: 0;
+#sidebar p {
+    color:white;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 10px;
 }
 
-.sidenav li{
+#sidebar ul {
     list-style: none;
+    padding-left: 0;
 }
 
-.sidenav a{
-    text-decoration: none;
-    font-size: 20px;
+#sidebar ul li a {
+    display: block;
+    padding: 10px;
+    font-size: 1.1em;
     color: white;
+    text-decoration: none;
 }
 
-.sidenav .below {
-    border-top: 1px solid #d0cdcdb2;
+#sidebar ul li a:hover {
+    background-color: rgb(94, 94, 94);
 }
 
 header p {
     text-align: start;
     font-style: italic;
+    padding-top: 10px;
     font-size: 20px;
 }
 
@@ -117,13 +118,14 @@ hr {
     background-color: #a09e9e81;
 }
 
-.projectlist {
+#projectlist {
+    margin: 30px 50px;
     text-align: start;
     display: flex;
     flex-direction: column;
 }
 
-.projectlist li{
+#projectlist li{
     list-style: numbered;
 }
 
@@ -134,8 +136,8 @@ hr {
 
 footer {  
     position: absolute;
-    bottom: 0px;
-    width: 50%;
+    bottom: 6px;
+    width: 55%;
     display: flex;
     justify-content: center;
 }
