@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Oleo+Script+Swash+Caps&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&family=Saira+Semi+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200;1,400&family=Saira+Semi+Condensed&display=swap');
 
 .wrapper {
     display: flex;
@@ -11,7 +11,7 @@
 .content {
     width: 80%;
     margin-top: 20px;
-    margin-left: 80px;
+    margin-left: 60px;
 }
 
 h1 {
@@ -30,11 +30,15 @@ h3 {
     font-size: larger;
 }
 
+header {
+    margin-bottom: 20px;
+}
+
 body {
     color: #232121;
     text-align: center;
     font-family: Helvetica;
-    background-color: #e2dfdfde;
+    background-color: #f3f3f3e5;
     display: flex;
 }
 
@@ -46,7 +50,7 @@ body {
 
 .image-with-text span {
     text-decoration: underline;
-    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Kanit', sans-serif;
     color: #494747;
     display: block;
     margin: 0 auto;
@@ -63,7 +67,7 @@ body {
     background-color: rgb(45, 45, 45) ;
     color: white;
     font-size: 34px;
-    padding: 20px;
+    padding: 30px 0 20px 0;
 }
 
 .sidebar-header h3 {
@@ -74,6 +78,7 @@ body {
     color:white;
     font-weight: 400;
     font-size: 24px;
+    margin: 10px 0 20px 0;
     padding: 10px;
 }
 
@@ -83,6 +88,7 @@ body {
 }
 
 #sidebar ul li a {
+    text-align: start;
     display: block;
     padding: 20px;
     font-size: 1.2em;
@@ -128,7 +134,7 @@ hr {
 }
 
 #projectlist li{
-    list-style: numbered;
+    list-style: none;
 }
 
 .description p {
